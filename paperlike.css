@@ -1,0 +1,60 @@
+
+@import url(https://trnlinh.github.io/css/css/Black%20and%20White/black%20and%20white.css);
+
+
+:root {
+  --black: #000000;
+  --white: #ACAEAC;
+  --trans: transparent;
+  --link: #3f3e3e;
+}
+
+* {
+  font-family: "Shizuru", cursive;
+}
+
+/*
+discord: https://discord.com/users/788252451873751061
+
+*/
+
+
+/*loading screen*/
+
+.krSocial:hover {
+    display: none;
+}
+
+#initLoader {
+    background-image: url(https://64.media.tumblr.com/1aa627b6dbd82ead3af856722f26df62/34187862552148a1-4f/s2048x3072/21dd8075ce666dfe1d2fec82e9acebbd5031b3a7.gifv);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#loadHeader {
+	display: none;
+}
+#loadTipsHolder {
+	display: none;
+}
+#loadInfoRHolder {
+	display: none;
+}
+#loadInfoLHolder {
+	display: none;
+}
+#lC-cont {
+	display: none;
+}
+#loadGamNm {
+	display: none;
+}
+#windowHolder.popupWin {
+    backdrop-filter: blur(0px);
+	background-color: transparent;	
+}
+#instructionHolder {
+  backdrop-filter: saturate(0) blur(5px);
+}
+
+#editorBtn {
+    display: none!important;
